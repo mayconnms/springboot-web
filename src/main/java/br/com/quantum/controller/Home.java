@@ -19,4 +19,4 @@ public class Home {
 		return  ResponseEntity.ok("ok");		
 	}
 	
-}	
+}
