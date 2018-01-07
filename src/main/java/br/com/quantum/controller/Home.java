@@ -14,4 +14,9 @@ public class Home {
 		return  ResponseEntity.ok("ok");		
 	}
 	
+	@RequestMapping(method = RequestMethod.GET, path = "/test2")
+	public ResponseEntity<String> test2() throws Exception {
+		return  ResponseEntity.ok("ok");		
+	}
+	
 }
